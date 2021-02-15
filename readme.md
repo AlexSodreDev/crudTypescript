@@ -1,9 +1,9 @@
-# Locadora API
+# crudTypescrit
 
-API para aluguel de Filmes:
+API de Estudo:
+* Em atualização.
 * Cadastro de Usuários, autenticação e gerenciamento.
-* Cadastro de Filmes e gerenciemento.
-* Gerenciemento de alugueis.
+
 
 Tecnologias utilizadas:
 * 🛠 Node.js
@@ -26,12 +26,12 @@ Documentação Swagger:
 Use o instalador do NPM para instalar as dependências.
 
 ```bash
-locadora_Api$ npm install
+church_db$ npm install
 ```
 Para startar o projeto utilize:
 
 ```bash
-locadora_Api$  docker-compose up
-locadora_Api$  npm start
+church_db$  docker-compose up --remove-orphans
+church_db$  npm start
 ```
 
