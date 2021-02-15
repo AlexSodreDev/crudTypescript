@@ -1,0 +1,14 @@
+
+version: '3'
+
+services:
+  mysqlsrv1:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: "church123"
+      MYSQL_DATABASE: "church"
+    ports:
+      - "3306:3306"
+
+
