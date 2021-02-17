@@ -5,7 +5,7 @@ API de Estudo:
 * Cadastro de Usuários, autenticação e gerenciamento.
 
 
-Tecnologias utilizadas:
+Tecnologias a serem utilizadas:
 * 🛠 Node.js
 * 💈 TypeScript
 * 🚀 Express
